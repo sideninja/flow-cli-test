@@ -84,7 +84,6 @@ main() {
   [ -d $TARGET_PATH ] || mkdir -p $TARGET_PATH
 
   tar -xf $tmpfile -C $TARGET_PATH
-  echo $TARGET_PATH
   mv $TARGET_PATH/flow-cli-test $TARGET_PATH/flow
   chmod +x $TARGET_PATH/flow
 
