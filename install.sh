@@ -71,7 +71,7 @@ main() {
   echo "Downloading version $VERSION ..."
 
   tmpfile=$(mktemp 2>/dev/null || mktemp -t flow)
-  url="$ASSETS_URL$VERSION/flow-cli-$VERSION-$ARCH.tar.gz"
+  url="$ASSETS_URL$VERSION/flow-cli-test-$VERSION-$ARCH.tar.gz"
   curl -L --progress-bar "$url" -o $tmpfile
 
   # Ensure we don't receive a not found error as response.
