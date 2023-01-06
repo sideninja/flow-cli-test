@@ -3,7 +3,7 @@
 # Exit as soon as any command fails
 set -e
 
-REPO="onflow/flow-cli"
+REPO="sideninja/flow-cli-test"
 ASSETS_URL="https://github.com/$REPO/releases/download/"
 # The version to download, set by get_version (defaults to args[1])
 VERSION="$1"
