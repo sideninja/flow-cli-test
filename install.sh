@@ -84,7 +84,7 @@ main() {
   [ -d $TARGET_PATH ] || mkdir -p $TARGET_PATH
 
   tar -xf $tmpfile -C $TARGET_PATH
-  mv $TARGET_PATH/flow-cli $TARGET_PATH/flow
+  mv $TARGET_PATH/flow-cli-test $TARGET_PATH/flow
   chmod +x $TARGET_PATH/flow
 
   echo "Successfully installed the Flow CLI to $TARGET_PATH."
